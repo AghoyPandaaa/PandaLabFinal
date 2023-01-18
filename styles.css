@@ -6,3 +6,31 @@ html{
     height: 100%;
     background-image: linear-gradient(rgba(170, 157, 255, 1), rgb(90, 74, 163));
 }
+
+
+.bigpart {
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background-color:rgba(35, 28, 45, 0.899);
+    border-radius: 40px;
+    margin-left: 80vh;
+    margin-top: 15vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headtext {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+    font-weight:bold;
+    opacity: initial;
+    margin-top: -250px;
+    margin-bottom: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
