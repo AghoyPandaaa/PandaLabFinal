@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-<div class="bigpart">
-<p class="headtext">Tip Calculator</p>
+    <main>
+        <h1>Tip Calculator</h1>
+        <div class="bigpart">
+            <label for="bill">Bill total</label>
+            <input id="bill" name="bill" type="text" placeholder="$0.00">
+            <label for="tip">Tip</label>
+            <input id="tip" name="tip" type="text" placeholder="% 10">
+        </div>
+        <div class="control">
+            <div>
+                <p>People</p>
+                <div>
+                    <button>
+                        +
+                    </button>
+                    <span>1</span>
+                    <button>
+                        -
+                    </button>
+                </div>
+            </div>
+            <div>
+                <p>Total per Person</p>
+                <p class="total">$0.00</p>
+            </div>
+        </div>
+    </main>
 </div>
 
 
